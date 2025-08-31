@@ -1,29 +1,43 @@
-### IntelliJ IDEA ###
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+# Compiled class files
+*.class
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+# Log files
+*.log
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+# BlueJ files
+*.ctxt
 
-### VS Code ###
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files
+*.jar
+*.war
+*.ear
+
+# Virtual machine crash logs
+hs_err_pid*
+
+# IntelliJ IDEA project files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code project files (if ever used)
 .vscode/
 
-### Mac OS ###
+# Mac / Linux / Windows system files
 .DS_Store
+Thumbs.db
+
+# Maven target directory (if using Maven)
+target/
+
+# Gradle build directory (if using Gradle)
+build/
+.gradle/
+
+# Database credentials (IMPORTANT: don’t commit real passwords)
+*.properties
+*.env
